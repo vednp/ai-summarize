@@ -27,7 +27,7 @@ function Input() {
             type="text"
             placeholder="Enter a prompt here"
           />
-          <span type="submit">
+          <span onClick={handleSubmit} className="cursor-pointer">
           <SendSharpIcon className="mt-4 ml-4" style={iconStyle} />
           </span>
         </div>
